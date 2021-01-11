@@ -26,7 +26,7 @@ export default function Header({ title, showCancel = true}: HeaderProps) {
 
             { showCancel ? (
                 <BorderlessButton onPress={handleGobackToAppHomepage}>
-                <Feather name="x" size={24} color="#ff669d" />
+                    <Feather name="x" size={24} color="#ff669d" />
                 </BorderlessButton>
             ): (
                 <View />
